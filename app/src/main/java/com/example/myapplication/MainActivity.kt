@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
     fun App(modifier: Modifier = Modifier) {
         Column(modifier = modifier) {
             Button(onClick = { funLiteral.main() }) {
-                Text("Clock")
+                Text("funLiteral")
             }
         }
     }
